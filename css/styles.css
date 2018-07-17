@@ -7,13 +7,15 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    font-size: 0px;
 }
 
 body{
     background-color: var(--cor-do-bg);
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* nav header */
 
 .navigation{
     background-color: var(--cor-do-bg);
@@ -37,6 +39,10 @@ body{
    font-size: 18px;
    font-weight: 100;
 }
+
+
+/* index // capa */
+
 
 .capa{
     color: white;   
@@ -65,7 +71,7 @@ body{
 
 .profile-title{
     vertical-align: top;
-    width: 60%;
+    width: 59%;
     
 }
 
@@ -82,3 +88,85 @@ body{
     font-weight: 100;
     margin-top: -26px;
 }
+
+/* curriculo  */
+
+.main{
+    padding: 40px 180px 80px 100px;
+}
+
+.main img{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main h1{
+    color : white;
+    font-weight: normal;
+}
+
+.main h2{
+    color : white;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.main h3{
+    color : var(--cor-da-font-pri);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.main p{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* caminho da navegacao */
+
+.caminho{
+    list-style: none;
+    padding-left: 0px;
+    color: var(--cor-da-font-sec);
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+/* contato */
+
+#linkedin{
+    background-image: url(../img/linkedin.png);
+    background-repeat: no-repeat;
+    padding: 26px;
+    border-radius: 12px;
+}
+
+#github{
+    background-image: url(../img/github-sign.png);
+    background-repeat: no-repeat;
+    padding: 26px;  
+    border-radius: 12px;
+}   
+
+.social-img a{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-right: 20px; 
+    display: inline-block;
+
+}
+
+
+
+
+
+
