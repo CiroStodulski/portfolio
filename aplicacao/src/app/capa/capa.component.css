@@ -15,18 +15,22 @@
 .profile-img{
     width: 40% ;
     text-align: center;
+    animation-name: profile-capa;
+    animation-duration: 5s
 }
 
 .profile-img img{
     width: 350px;
     border-radius: 320px ;
     margin-top: 100px;
+    
 }
 
 .profile-title{
     vertical-align: top;
     width: 59%;
-    
+    animation-name: profile-capa;
+    animation-duration: 5s
 }
 
 .profile-title h1{
@@ -43,7 +47,12 @@
     margin-top: -26px;
 }
 
-@media(max-width:1000px){
+@keyframes profile-capa {
+    0% {opacity: 0 }
+    100% {opacity: 1;}
+}
+
+@media(max-width:700px){
 
     .profile-img{
         width: 100% ;
@@ -52,6 +61,8 @@
     .profile-title {
         width: 100%;
         text-align: center;
+          animation-name: profile-capa;
+    animation-duration: 5s
     }
 
     .capa div{
@@ -63,6 +74,8 @@
         max-width: 70%;
         border-radius: 320px ;
         margin-top: 0;
+        animation-name: profile-capa;
+        animation-duration: 5s
     }
 
     .profile-title h1{
@@ -78,3 +91,6 @@
         margin-left: 20px;
     }   
 }
+
+
+

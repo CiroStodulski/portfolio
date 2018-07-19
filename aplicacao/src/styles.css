@@ -4,12 +4,24 @@ html, body {
     padding: 0px;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
 body{
     background-color: #272733;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+
 }
 :root{
     --cor-da-font-sec: #A9BDDC;
     --cor-da-font-pri : #D4C65C;
     --cor-do-bg: #272733;
 }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+ 
