@@ -60,6 +60,7 @@ li.threeline-icon{
   display: none;  
 }
 
+
 /* index // capa */
 
 
@@ -254,8 +255,8 @@ li.threeline-icon{
 }
 
 @keyframes navigation-nav {
-    0% {opacity: 0; transform: translate(30px, 0px)}
-    50% {opacity: 0; transform: translate(30px, 0px)}
+    0% {opacity: 0; transform: translate(-30px, 0px)}
+    50% {opacity: 0; transform: translate(-30px, 0px)}
 
     100% {opacity: 1; transform: translate(0px, 0px)}
 }
@@ -269,4 +270,91 @@ li.threeline-icon{
         opacity: 1;
         transform: translate(0px, 0px)
     }
+}
+
+
+@media(max-width:1000px){
+        .navigation li{
+            display: none;
+        }
+        .navigation li.threeline-icon{
+            display: inline-block;
+        }
+
+        .profile-img{
+            width: 100% ;
+        }
+        
+        .profile-title {
+            width: 100%;
+            text-align: center;
+        }
+
+        .capa div{
+            display: block;
+            height: auto;
+        }
+
+        .profile-img img{
+            max-width: 70%;
+            border-radius: 320px ;
+            margin-top: 0;
+        }
+
+        .profile-title h1{
+            font-size: 40px;
+            margin-top: 30px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }   
+
+        .profile-title h2{
+            margin-top: 20px;   
+            margin-right: 20px;
+            margin-left: 20px;
+        }   
+
+        .main{
+            padding: 10px 5% 40px 5%;
+        }
+        
+        .main img{
+            float: none;
+            max-width:  100%;
+            margin: 10PX;
+        }
+        
+        .main h1{
+            color : white;
+            font-weight: normal;
+        }
+        
+        .main h2{
+            color : white;
+            font-size: 16px;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+        
+        .main h3{
+            color : var(--cor-da-font-pri);
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        
+        .main p{
+            color: white;
+            font-size: 18px;
+            font-weight: 100;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        .caminho li{
+            font-size: 12px;
+        }
+
+        
+        
 }
