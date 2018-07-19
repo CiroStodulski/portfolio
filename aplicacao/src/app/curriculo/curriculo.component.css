@@ -1,0 +1,50 @@
+.curriculo{
+    background-color: white;
+    color: var(--cor-do-bg)
+}
+
+.curriculo h1, h2, h3{
+    color: var(--cor-do-bg);
+}
+
+.curriculo h1, h2, h3{
+    font-weight: bolder;
+}
+
+.curriculo h3{
+    font-size: 16px
+}
+
+.curriculo p {
+    color: #665;
+    font-weight: 500;
+
+}
+
+.curriculo img{
+    box-shadow: 1px 2px 2px #665 
+}
+
+.curriculo hr{
+    text-decoration-color: black
+}
+.dados-pessoais  {
+
+    /*  dividir em colunas quand for maior */
+}
+
+.sobre{
+    
+}
+
+.educacao{
+
+}
+
+.resumo-qualificacoes{
+
+}
+
+experencias{
+
+}

@@ -59,10 +59,7 @@ body{
 li.threeline-icon{
   display: none;  
 }
-
-
 /* index // capa */
-
 
 .capa{
     color: white;   
@@ -268,7 +265,7 @@ li.threeline-icon{
 }
 
 
-@media(max-width:1000px){
+@media (min-width: 100px) and (max-width: 900px) {
         .navigation li{
             display: none;
         }

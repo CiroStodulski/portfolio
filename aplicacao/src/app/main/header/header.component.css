@@ -8,14 +8,12 @@
     animation-duration: 2s;
     box-shadow: 0 0 10px black;
 }
-
 .navigation ul{
     margin-top: 0px;
     list-style: none;
     padding-left: 0px;
     text-align: right;
     height: 50px;
-
 }
 .navigation li{
     display: inline-block;
@@ -23,36 +21,44 @@
     padding-right: 30px;
    line-height: 50px;
    font-size: 18px;
-
 }
-
 .navigation a {
-
     color: white;
     text-decoration: none;
-
 }
 
-.navigation a:hover {
 
+.navigation a:hover {
     color: var(--cor-da-font-pri);
     text-decoration: none;
     transform: 2s;
     font-weight: bold;
+}
 
-
+li.active a:hover{
+    color: black;
 }
 
 li.threeline-icon{
-  display: none;  
+  display: none !important;  
 }
+li.active, li.active a{
+    background: var(--cor-da-font-pri);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
 /* index // capa */
 @media(max-width:700px){
     .navigation li{
         display: none;
     }
     .navigation li.threeline-icon{
-        display: inline-block;
+        display: inline-block !important;
     }
 }
 
