@@ -1,6 +1,8 @@
 .curriculo{
     background-color: white;
-    color: var(--cor-do-bg)
+    box-shadow: 1px 2px 5px #665 ;
+    color: var(--cor-do-bg);
+    margin: 10px
 }
 
 .curriculo h1, h2, h3{

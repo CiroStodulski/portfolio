@@ -1,0 +1,90 @@
+
+/* #linkedin{
+    background-image: url(assets/linkedin.png);
+    background-repeat: no-repeat;
+    padding: 26px;
+    border-radius: 12px ;
+}
+
+#github{
+    background-image: url(assets/github-sign.png);
+    background-repeat: no-repeat;
+    padding: 26px;  
+    border-radius: 12px;
+}    */
+
+
+.contato{
+    padding: 10px 5% 40px 5%;
+    background-color: var(--cor-da-font-pri);
+    animation-name: contato-an;
+    animation-duration: 1.5s;
+    border-bottom: 40px  solid white;
+    margin-bottom: 170px;
+}
+
+.contato h3{
+  
+    color: black;
+    font-weight: 100px;
+    font-size: 25px;
+    
+}
+
+.contato h1{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 10px gray
+}
+.contato p{
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 50px 20px 10px #000000;
+    color: white;
+
+}
+
+.frase{
+    text-align: center;
+}
+
+.frase p{
+    font-size: 25px;
+    font-weight: 200px;
+    color: white;
+    margin-top: 5%;
+    z-index: 999px;
+    animation-name: frase-an;
+    animation-duration: 1s;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-shadow: 1px 1px gray;
+}
+
+@keyframes contato-an {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 400px);
+    }
+    100%  {
+        opacity: 1;
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes frase-an {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100%  {
+        opacity: 1;
+    }
+}
+
