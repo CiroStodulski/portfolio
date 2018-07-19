@@ -53,12 +53,44 @@ li.active, li.active a{
 
 
 /* index // capa */
-@media(max-width:700px){
+@media(max-width:460px){
+
+    .navigation{
+        background-color: var(--cor-do-bg);
+        color:white;
+        height: 50px;
+        transition: 0.5s;
+
+        /* 50 px para ficar no tamanho ideal */
+    }
     .navigation li{
-        display: none;
+        /*  none para sumir */
+        display: none; 
+        transition: 4.5s;
     }
     .navigation li.threeline-icon{
         display: inline-block !important;
+        width: 85%;
+    }
+    .navigation li {
+        text-align: center
+    }
+
+    .navigation-toggle{
+        background-color: var(--cor-do-bg);
+       height: 200px;
+       transition: 0.5s;
+       
+    /* 50 px para ficar no tamanho ideal */
+    }
+    .navigation-toggle li{
+        border-bottom: none;
+    /*  none para sumir */
+       display: block; 
+       animation-name: navigation-nav-toggle ;
+       animation-duration: 0.6s;
+       transition: 0.5s;
+
     }
 }
 
@@ -67,4 +99,9 @@ li.active, li.active a{
     50% {opacity: 0; transform: translate(-30px, 0px)}
 
     100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+@keyframes navigation-nav-toggle {
+    0% {opacity: 0; }
+    100% {opacity: 1; }
 }

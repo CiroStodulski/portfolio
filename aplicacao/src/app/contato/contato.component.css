@@ -51,7 +51,7 @@
 .contato p{
     font-size: 19px;
     font-weight: 400;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    text-shadow: 2px 1px 4px #000000;
     color: white;
     margin: 0;
 }
@@ -59,7 +59,7 @@
 .frase{
     position: relative;
     text-align: center;
-    top: 140px;
+    top: 100px;
 }
 
 .frase p{
@@ -71,7 +71,8 @@
     animation-duration: 1s;
     font-family: 'Times New Roman', Times, serif;
     font-style:italic;
-    text-shadow: 1px 1px gray;
+    text-shadow: 2px 1px 4px black;
+
 }
 
 @keyframes contato-an {
@@ -100,3 +101,10 @@
     }
 }
 
+@media (min-width: 100px) and (max-width: 900px) {
+    
+.frase{
+    top : 0px;
+    margin-top: 70px;
+}
+}

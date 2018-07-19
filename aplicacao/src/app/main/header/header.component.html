@@ -1,4 +1,4 @@
-<div class="navigation">
+<div [ngClass]="toggle ? 'navigation navigation-toggle' : ' navigation'" >
   <ul>
     <li>
       <a [routerLink]="['/']"> Home</a>
@@ -13,7 +13,7 @@
       <a routerLinkActive="active" [routerLink]="['/contato']"> Contato</a>
     </li>
     <li class="threeline-icon">
-      <a href="#"> &#9776;</a>
+      <a  (click)="toggleMenu()">&#9776;</a>
     </li>
   </ul>
 </div>

@@ -11,6 +11,8 @@ html {
 
 body{
     background-color: #272733;
+    /* background-image: url('./app/curriculo/mesa.jpg') !important;
+    background-size: cover; */
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 60px;
 
