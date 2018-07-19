@@ -1,59 +1,71 @@
 
-/* #linkedin{
-    background-image: url(assets/linkedin.png);
+#linkedin{
+    background-image: url(linkedin.png);
     background-repeat: no-repeat;
-    padding: 26px;
-    border-radius: 12px ;
+    border-radius: 13px;
+    padding-bottom: 52px;
+    width: 51px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 5px solid white;
+    box-shadow: 1px 5px 5px black;
 }
 
 #github{
-    background-image: url(assets/github-sign.png);
+    background-image: url(github-sign.png);
     background-repeat: no-repeat;
-    padding: 26px;  
-    border-radius: 12px;
-}    */
+    border-radius: 14px;
+    padding-bottom: 52px;
+    width: 51px;
+    display: inline-block;
+    border: 5px solid white;
+    box-shadow: 1px 5px 5px rgb(0, 0, 0);
+
+}   
 
 
 .contato{
-    padding: 10px 5% 40px 5%;
+    padding: 5px 5% 23px  5%;
+    margin-top: 10px;
     background-color: var(--cor-da-font-pri);
     animation-name: contato-an;
     animation-duration: 1.5s;
     border-bottom: 40px  solid white;
-    margin-bottom: 170px;
 }
 
 .contato h3{
   
     color: black;
     font-weight: 100px;
-    font-size: 25px;
-    
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .contato h1{
-    font-size: 30px;
+    font-size: 19px;
     color: black;
     font-weight: bold;
-    text-shadow: 10px gray
+    box-shadow: 20px 25px rgb(0, 0, 0);
+
 }
 .contato p{
-    font-size: 30px;
+    font-size: 19px;
     font-weight: 400;
-    text-shadow: 50px 20px 10px #000000;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
     color: white;
-
+    margin: 0;
 }
 
 .frase{
+    position: relative;
     text-align: center;
+    top: 140px;
 }
 
 .frase p{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 200px;
     color: white;
-    margin-top: 5%;
     z-index: 999px;
     animation-name: frase-an;
     animation-duration: 1s;
